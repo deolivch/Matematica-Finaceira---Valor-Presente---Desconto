@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VALOR PRESENTE</title>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/formatar.css">
+	</head>
+	<body>
+		<div id= "CalcValor" name="CalcValor">
+		
+			<form id= "calcular" name= "calcular" action="javascript:calcular();">
+				<p>Data Inicial: </p>
+				<input type="date" id= "dtInicial" name="dtInicial"></br>
+				<p>Data Final: </p>
+				<input type="date" id= "dtFinal" name="dtFinal"></br>
+				<p>Valor Futuro: </p>
+				<input type="text" id="valFuturo" name="valFuturo"></br>
+				<p>Taxa de Juros: (%)</p>
+				<input type="text" id="txJuros" name="txJuros"></br>
+				<p>=</p>
+				<p>Valor Presente: </p>
+				<input type="text" id="resultado" name="resultado" disabled ></br>
+			</form>
+				
+			<p>
+				<button type="button" onclick="calcularForm();" >Enviar</button>
+			</p>
+			
+		</div>
+	</body>
+</html>

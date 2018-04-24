@@ -1,0 +1,41 @@
+input
+{
+	width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	
+}
+body
+{
+	background-color: black;
+}
+
+p
+{
+	text-align: left;
+	font-size: 18px;
+	color: white; 
+}
+
+button
+{
+	background-color: #4CAF50; /* VERDE */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;;
+}
+
+#CalcValor
+{	
+	background-color: black;
+	color: white;
+	width: 772px;
+	margin: 0 auto;
+	
+	
+}
